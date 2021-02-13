@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ija-projekt" default="compile">
+  <property name="src.dir" location="src"/>
+  <property name="build.dir" location="build"/>
+  <property name="dist.dir" location="dest"/> 
+  <property name="doc.dir" location="doc"/> 
+  <property name="lib.dir" location="lib"/> 
+  <property name="data.dir" location="data"/> 
+  <property name="jar.name" value="ija-app"/>
+
+  <path id="classpath">
+
+  <pathelement location="${lib.dir}/snakeyaml-1.26.jar"/>
+
+
+  </path>
+  <target name="clean">
+
+    <delete dir="${build.dir}"/>
+
+  </target>
+  <target name="createFileStructure">
+    <mkdir dir="${build.dir}"/>
+  </target>
+
+   <target name="get-libs">
+    <exec executable="/bin/bash" dir="${lib.dir}">
+      <arg value="${lib.dir}/get-libs.sh"/>
+    </exec>
+  </target>
+
+  <target name="compile" depends="clean, createFileStructure, get-libs">
+	 <javac srcdir="${src.dir}" destdir="${build.dir}">
+      <classpath>
+        <path refid="classpath" />
+      </classpath>
+    </javac>
+    <jar destfile="${dist.dir}\${jar.name}.jar" basedir="${build.dir}">
+
+      <fileset dir="${data.dir}"/>
+
+      <manifest>
+        <attribute name="Main-Class" value="application.Main"/>
+      </manifest>
+      <zipgroupfileset dir="${lib.dir}" includes="**/*.jar"/>
+    </jar>
+  </target>
+
+  <target name="doc" depends="compile">
+    <javadoc sourcepath="${src.dir}" destdir="${doc.dir}">
+      <classpath>
+        <path refid="classpath"/>
+      </classpath>
+    </javadoc>
+  </target>
+
+  <target name="run">
+    <java jar="${dist.dir}/${jar.name}.jar" fork="true"/>
+  </target>
+</project>

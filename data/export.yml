@@ -1,0 +1,578 @@
+---
+stops:
+- &Stop0 id: "Stop0"
+  street: "Street0"
+  coordinates:
+    x: 255.66051039654278
+    y: 240.22525780601606
+- &Stop1 id: "Stop1"
+  street: "Street1"
+  coordinates:
+    x: 518.9729855185219
+    y: 218.81532045550549
+- &Stop2 id: "Stop2"
+  street: "Street2"
+  coordinates:
+    x: 419.7119863174025
+    y: 312.5921231433779
+- &Stop3 id: "Stop3"
+  street: "Street3"
+  coordinates:
+    x: 447.1714358686986
+    y: 332.372517026281
+- &Stop4 id: "Stop4"
+  street: "Street4"
+  coordinates:
+    x: 644.6896361251854
+    y: 351.0520929412617
+- &Stop5 id: "Stop5"
+  street: "Street5"
+  coordinates:
+    x: 318.9852497410774
+    y: 402.22905790777475
+- &Stop6 id: "Stop6"
+  street: "Street6"
+  coordinates:
+    x: 245.26913485879982
+    y: 308.24745829271035
+- &Stop7 id: "Stop7"
+  street: "Street7"
+  coordinates:
+    x: 311.5944359570885
+    y: 521.8191556408858
+- &Stop8 id: "Stop8"
+  street: "Street8"
+  coordinates:
+    x: 466.66996190496184
+    y: 697.6716227872056
+- &Stop9 id: "Stop9"
+  street: "Street9"
+  coordinates:
+    x: 791.5752606912037
+    y: 453.88965362164174
+- &Stop10 id: "Stop10"
+  street: "Street10"
+  coordinates:
+    x: 588.0339046502595
+    y: 460.7841597252549
+- &Stop11 id: "Stop11"
+  street: "Street11"
+  coordinates:
+    x: 621.8851307928464
+    y: 502.1673766435126
+- &Stop12 id: "Stop12"
+  street: "Street12"
+  coordinates:
+    x: 424.1454553565167
+    y: 588.8155844609233
+- &Stop13 id: "Stop13"
+  street: "Street13"
+  coordinates:
+    x: 517.5423499985985
+    y: 576.9427072177085
+- &Stop14 id: "Stop14"
+  street: "Street14"
+  coordinates:
+    x: 132.75362500179813
+    y: 366.7754682814082
+- &Stop15 id: "Stop15"
+  street: "Street15"
+  coordinates:
+    x: 100.17500329548744
+    y: 431.7920680735729
+- &Stop16 id: "Stop16"
+  street: "Street16"
+  coordinates:
+    x: 181.0793993670992
+    y: 512.3645469926548
+- &Stop17 id: "Stop17"
+  street: "Street17"
+  coordinates:
+    x: 553.8073560516498
+    y: 161.29965885337162
+- &Stop18 id: "Stop18"
+  street: "Street18"
+  coordinates:
+    x: 719.2830816992835
+    y: 146.23001742558705
+- &Stop19 id: "Stop19"
+  street: "Street19"
+  coordinates:
+    x: 803.4738821809253
+    y: 187.4255947830921
+- &Stop20 id: "Stop20"
+  street: "Street20"
+  coordinates:
+    x: 904.6973250451778
+    y: 293.35043074776286
+- &Stop21 id: "Stop21"
+  street: "Street21"
+  coordinates:
+    x: 921.2506135058732
+    y: 316.2105311221563
+- &Stop22 id: "Stop22"
+  street: "Street22"
+  coordinates:
+    x: 838.5417517902046
+    y: 618.9017312799365
+- &Stop23 id: "Stop23"
+  street: "Street23"
+  coordinates:
+    x: 843.8327542899486
+    y: 538.4150617489422
+- &Stop24 id: "Stop24"
+  street: "Street24"
+  coordinates:
+    x: 888.648291552119
+    y: 649.9989107546265
+- &Stop25 id: "Stop25"
+  street: "Street25"
+  coordinates:
+    x: 514.5406671250943
+    y: 725.5855195969712
+- &Stop26 id: "Stop26"
+  street: "Street26"
+  coordinates:
+    x: 128.9386143031214
+    y: 622.4624831903561
+- &Stop27 id: "Stop27"
+  street: "Street27"
+  coordinates:
+    x: 249.8862943240735
+    y: 828.0057643363849
+- &Stop28 id: "Stop28"
+  street: "Street28"
+  coordinates:
+    x: 414.0851611393104
+    y: 852.9521975157019
+- &Stop29 id: "Stop29"
+  street: "Street29"
+  coordinates:
+    x: 893.9374659968878
+    y: 664.4931564161143
+- &Stop30 id: "Stop30"
+  street: "Street0"
+  coordinates:
+    x: 436.0
+    y: 185.0     
+streets:
+- &Street0 name: "Street0"
+  stops:
+  - *Stop0
+  from:
+    x: 231.0
+    y: 248.0
+  to:
+    x: 434.0
+    y: 184.0
+  closed: false
+  traffic: 0.0
+- &Street1 name: "Street1"
+  stops:
+  - *Stop1
+  from:
+    x: 434.0
+    y: 184.0
+  to:
+    x: 722.0
+    y: 302.0
+  closed: false
+  traffic: 0.0
+- &Street2 name: "Street2"
+  stops:
+  - *Stop2
+  from:
+    x: 434.0
+    y: 184.0
+  to:
+    x: 419.0
+    y: 319.0
+  closed: false
+  traffic: 0.0
+- &Street3 name: "Street3"
+  stops:
+  - *Stop3
+  from:
+    x: 419.0
+    y: 319.0
+  to:
+    x: 577.0
+    y: 394.0
+  closed: false
+  traffic: 0.0
+- &Street4 name: "Street4"
+  stops:
+  - *Stop4
+  from:
+    x: 577.0
+    y: 394.0
+  to:
+    x: 722.0
+    y: 302.0
+  closed: false
+  traffic: 0.0
+- &Street5 name: "Street5"
+  stops:
+  - *Stop5
+  from:
+    x: 419.0
+    y: 319.0
+  to:
+    x: 276.0
+    y: 438.0
+  closed: false
+  traffic: 0.0
+- &Street6 name: "Street6"
+  stops:
+  - *Stop6
+  from:
+    x: 231.0
+    y: 248.0
+  to:
+    x: 276.0
+    y: 438.0
+  closed: false
+  traffic: 0.0
+- &Street7 name: "Street7"
+  stops:
+  - *Stop7
+  from:
+    x: 276.0
+    y: 438.0
+  to:
+    x: 338.0
+    y: 584.0
+  closed: false
+  traffic: 0.0
+- &Street8 name: "Street8"
+  stops:
+  - *Stop8
+  from:
+    x: 338.0
+    y: 584.0
+  to:
+    x: 501.0
+    y: 728.0
+  closed: false
+  traffic: 0.0
+- &Street9 name: "Street9"
+  stops:
+  - *Stop9
+  from:
+    x: 722.0
+    y: 302.0
+  to:
+    x: 793.0
+    y: 457.0
+  closed: false
+  traffic: 0.0
+- &Street10 name: "Street10"
+  stops:
+  - *Stop10
+  from:
+    x: 577.0
+    y: 394.0
+  to:
+    x: 596.0
+    y: 509.0
+  closed: false
+  traffic: 0.0
+- &Street11 name: "Street11"
+  stops:
+  - *Stop11
+  from:
+    x: 793.0
+    y: 457.0
+  to:
+    x: 596.0
+    y: 509.0
+  closed: false
+  traffic: 0.0
+- &Street12 name: "Street12"
+  stops:
+  - *Stop12
+  from:
+    x: 338.0
+    y: 584.0
+  to:
+    x: 499.0
+    y: 593.0
+  closed: false
+  traffic: 0.0
+- &Street13 name: "Street13"
+  stops:
+  - *Stop13
+  from:
+    x: 499.0
+    y: 593.0
+  to:
+    x: 596.0
+    y: 509.0
+  closed: false
+  traffic: 0.0
+- &Street14 name: "Street14"
+  stops:
+  - *Stop14
+  from:
+    x: 231.0
+    y: 248.0
+  to:
+    x: 97.0
+    y: 410.0
+  closed: false
+  traffic: 0.0
+- &Street15 name: "Street15"
+  stops:
+  - *Stop15
+  from:
+    x: 97.0
+    y: 410.0
+  to:
+    x: 119.0
+    y: 561.0
+  closed: false
+  traffic: 0.0
+- &Street16 name: "Street16"
+  stops:
+  - *Stop16
+  from:
+    x: 119.0
+    y: 561.0
+  to:
+    x: 276.0
+    y: 438.0
+  closed: false
+  traffic: 0.0
+- &Street17 name: "Street17"
+  stops:
+  - *Stop17
+  from:
+    x: 434.0
+    y: 184.0
+  to:
+    x: 719.0
+    y: 130.0
+  closed: false
+  traffic: 0.0
+- &Street18 name: "Street18"
+  stops:
+  - *Stop18
+  from:
+    x: 719.0
+    y: 130.0
+  to:
+    x: 722.0
+    y: 302.0
+  closed: false
+  traffic: 0.0
+- &Street19 name: "Street19"
+  stops:
+  - *Stop19
+  from:
+    x: 719.0
+    y: 130.0
+  to:
+    x: 922.0
+    y: 268.0
+  closed: false
+  traffic: 0.0
+- &Street20 name: "Street20"
+  stops:
+  - *Stop20
+  from:
+    x: 922.0
+    y: 268.0
+  to:
+    x: 793.0
+    y: 457.0
+  closed: false
+  traffic: 0.0
+- &Street21 name: "Street21"
+  stops:
+  - *Stop21
+  from:
+    x: 922.0
+    y: 268.0
+  to:
+    x: 916.0
+    y: 654.0
+  closed: false
+  traffic: 0.0
+- &Street22 name: "Street22"
+  stops:
+  - *Stop22
+  from:
+    x: 916.0
+    y: 654.0
+  to:
+    x: 596.0
+    y: 509.0
+  closed: false
+  traffic: 0.0
+- &Street23 name: "Street23"
+  stops:
+  - *Stop23
+  from:
+    x: 916.0
+    y: 654.0
+  to:
+    x: 793.0
+    y: 457.0
+  closed: false
+  traffic: 0.0
+- &Street24 name: "Street24"
+  stops:
+  - *Stop24
+  from:
+    x: 916.0
+    y: 654.0
+  to:
+    x: 499.0
+    y: 593.0
+  closed: false
+  traffic: 0.0
+- &Street25 name: "Street25"
+  stops:
+  - *Stop25
+  from:
+    x: 501.0
+    y: 728.0
+  to:
+    x: 916.0
+    y: 654.0
+  closed: false
+  traffic: 0.0
+- &Street26 name: "Street26"
+  stops:
+  - *Stop26
+  from:
+    x: 119.0
+    y: 561.0
+  to:
+    x: 157.0
+    y: 796.0
+  closed: false
+  traffic: 0.0
+- &Street27 name: "Street27"
+  stops:
+  - *Stop27
+  from:
+    x: 157.0
+    y: 796.0
+  to:
+    x: 424.0
+    y: 888.0
+  closed: false
+  traffic: 0.0
+- &Street28 name: "Street28"
+  stops:
+  - *Stop28
+  from:
+    x: 424.0
+    y: 888.0
+  to:
+    x: 338.0
+    y: 584.0
+  closed: false
+  traffic: 0.0
+- &Street29 name: "Street29"
+  stops:
+  - *Stop29
+  from:
+    x: 424.0
+    y: 888.0
+  to:
+    x: 916.0
+    y: 654.0
+  closed: false
+  traffic: 0.0
+
+paths:
+- &PathA name: "PathA"
+  streets:
+    Street23
+    Street27
+    Street28
+    Street8
+    Street25
+    Street29
+  from:
+    Street27.end
+  through:
+    Street29.end
+    Street8.end
+    Street28.end
+    Street28.begin
+    Street26.end
+  to:
+    Street26.begin
+  timetable:
+    2.5  
+    
+- &PathB name: "PathB"
+  streets:
+    Street22
+    Street11
+    Street9
+    Street18
+    Street19
+    Street21
+  from:
+    Street0.end
+  through:
+    Street0.begin
+    Street16.end
+    Street15.end
+    Street15.begin
+  to:
+    Street6.begin
+  timetable:
+    0.5  
+    
+- &PathC name: "PathC"
+  streets:
+    Street17
+    Street1
+    Street4
+    Street10
+    Street13
+    Street12
+    Street7
+    Street5
+    Street2
+  from:
+    Street17.end
+  through:
+    Street1.begin
+    Street4.end
+    Street10.begin
+    Street13.end
+    Street12.end
+    Street7.end
+    Street5.end
+    Street2.end
+  to:
+    Street2.begin
+  timetable:
+    1.5
+      
+- &PathD name: "PathD"
+  streets:
+    Street0
+    Street14
+    Street15
+    Street16
+    Street6
+  from:
+    Street22.begin
+  through:
+    Street22.end
+    Street9.end
+    Street18.end
+    Street19.begin
+    Street21.begin
+  to:
+    Street21.end
+  timetable:
+    0.5  
+    

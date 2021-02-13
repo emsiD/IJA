@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="800.0" prefWidth="1300.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <ScrollPane pannable="true" prefHeight="740.0" prefWidth="1012.0" vvalue="0.58" BorderPane.alignment="CENTER">
+         <content>
+            <Group>
+               <children>
+                  <Pane fx:id="content" layoutX="105.0" layoutY="-63.0" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" onScroll="#onZoom" prefHeight="966.0" prefWidth="1085.0" style="-fx-background-color: rgb(50,50,50);">
+                     <children>
+                        <Line fx:id="line16" endX="231" endY="248" startX="434" startY="184" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line10" endX="434" endY="184" startX="722.0" startY="302" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line15" endX="434" endY="184" startX="419" startY="319" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line endX="419" endY="319" startX="577" startY="394" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line9" endX="577" endY="394" startX="722" startY="302" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line12" endX="419" endY="319" startX="276" startY="438" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line18" endX="231" endY="248" startX="276" startY="438" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line13" endX="276" endY="438" startX="338" startY="584" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line6" endX="338" endY="584" startX="501" startY="728" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line25" endX="722" endY="302" startX="793" startY="457" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line8" endX="577" endY="394" startX="596" startY="509" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line26" endX="793" endY="457" startX="596" startY="509" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line id="line2" fx:id="line14" endX="338" endY="584" startX="499" startY="593" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line7" endX="499" endY="593" startX="596" startY="509" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line17" endX="231" endY="248" startX="97" startY="410" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line19" endX="97" endY="410" startX="119" startY="561" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line20" endX="119" endY="561" startX="276" startY="438" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line11" endX="434" endY="184" startX="719" startY="130" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line21" endX="719" endY="130" startX="722" startY="302" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line22" endX="719" endY="130" startX="922" startY="268" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line endX="922" endY="268" startX="793" startY="457" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line24" endX="922" endY="268" startX="916" startY="654" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line23" endX="916" endY="654" startX="596" startY="509" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line endX="916" endY="654" startX="793" startY="457" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line5" endX="501" endY="728" startX="916" startY="654" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line4" endX="119" endY="561" startX="157" startY="796" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line3" endX="157" endY="796" startX="424" startY="888" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line2" endX="424" endY="888" startX="338" startY="584" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Line fx:id="line1" endX="424" endY="888" startX="916" startY="654" stroke="#4f4e4e" strokeWidth="3.0" />
+                        <Circle fill="#757575" layoutX="255.66051039654278" layoutY="240.2252578060160" onMouseClicked="#onPathC" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="518.9729855185219" layoutY="218.81532045550549" onMouseClicked="#onPathB" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />	 
+                        <Circle fill="#757575" layoutX="419.7119863174025" layoutY="312.5921231433779" onMouseClicked="#onPathB" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="644.6896361251854" layoutY="351.0520929412617" onMouseClicked="#onPathB" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="318.9852497410774" layoutY="402.22905790777475" onMouseClicked="#onPathB" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="245.26913485879982" layoutY="308.24745829271035" onMouseClicked="#onPathC" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="311.5944359570885" layoutY="521.8191556408858" onMouseClicked="#onPathB" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="466.66996190496184" layoutY="697.6716227872056" onMouseClicked="#onPathA" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="791.5752606912037" layoutY="453.88965362164174" onMouseClicked="#onPathD" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="588.0339046502595" layoutY="460.7841597252549" onMouseClicked="#onPathB" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="621.8851307928464" layoutY="502.1673766435126" onMouseClicked="#onPathD" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="424.1454553565167" layoutY="588.8155844609233" onMouseClicked="#onPathB" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="517.5423499985985" layoutY="576.9427072177085" onMouseClicked="#onPathB" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="132.75362500179813" layoutY="366.7754682814082" onMouseClicked="#onPathC" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="100.17500329548744" layoutY="431.7920680735729" onMouseClicked="#onPathC" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="181.0793993670992" layoutY="512.3645469926548" onMouseClicked="#onPathC" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="719.2830816992835" layoutY="146.23001742558705" onMouseClicked="#onPathD" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="803.4738821809253" layoutY="187.4255947830921" onMouseClicked="#onPathD" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="921.2506135058732" layoutY="316.2105311221563" onMouseClicked="#onPathD" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="838.5417517902046" layoutY="618.9017312799365" onMouseClicked="#onPathD" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle accessibleRole="TEXT" fill="#757575" layoutX="514.5406671250943" layoutY="725.5855195969712" onMouseClicked="#onPathA" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="128.9386143031214" layoutY="622.4624831903561" onMouseClicked="#onPathA" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="249.8862943240735" layoutY="828.0057643363849" onMouseClicked="#onPathA" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle accessibleHelp="nnnn" fill="#757575" layoutX="414.0851611393104" layoutY="852.9521975157019" onMouseClicked="#onPathA" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#757575" layoutX="893.9374659968878" layoutY="664.4931564161143" onMouseClicked="#onPathA" radius="7.0" stroke="#515151" strokeWidth="3.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#191313" layoutX="119.0" layoutY="561.0" onMouseClicked="#onPathA" radius="7.0" stroke="#bf2121" strokeWidth="5.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#191313" layoutX="231.0" layoutY="248.0" onMouseClicked="#onPathA" radius="7.0" stroke="#bf2121" strokeWidth="5.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#191313" layoutX="719.0" layoutY="130.0" onMouseClicked="#onPathA" radius="7.0" stroke="#bf2121" strokeWidth="5.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#191313" layoutX="434.0" layoutY="184.0" onMouseClicked="#onPathA" radius="7.0" stroke="#bf2121" strokeWidth="5.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#191313" layoutX="916.0" layoutY="654.0" onMouseClicked="#onPathA" radius="7.0" stroke="#bf2121" strokeWidth="5.0" style="-fx-cursor: hand;" />
+                        <Circle fill="#191313" layoutX="424.0" layoutY="888.0" onMouseClicked="#onPathA" radius="7.0" stroke="#bf2121" strokeWidth="5.0" style="-fx-cursor: hand;" />                                
+                     </children>
+                     <effect>
+                        <Bloom />
+                     </effect>
+                  </Pane>
+               </children>
+            </Group>
+         </content>
+      </ScrollPane>
+   </center>
+   <top>
+      <AnchorPane prefHeight="60.0" prefWidth="800.0" style="-fx-background-color: rgb(50,50,50);" BorderPane.alignment="CENTER">
+         <children>
+            <Slider fx:id="slider" layoutX="214.0" layoutY="18.0" max="50.0" min="1.0" onMouseClicked="#onSlide" prefHeight="33.0" prefWidth="149.0" showTickLabels="true" value="1.0" />
+            <Button fx:id="clearButton" layoutX="377.0" layoutY="15.0" mnemonicParsing="false" onAction="#onClear" text="Clear Path" />
+            <Label id="timeLabel" fx:id="timeLabel" layoutX="23.0" layoutY="12.0" prefHeight="34.0" prefWidth="183.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <right>
+      <Label id="label2" fx:id="label2" prefHeight="752.0" prefWidth="195.0" style="-fx-background-color: black;" textAlignment="CENTER" textFill="WHITE" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </right>
+</BorderPane>
